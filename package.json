@@ -1,0 +1,22 @@
+{
+  "name": "mobile_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wd-up": "webdriver-manager update",
+    "wd-st": "webdriver-manager start",
+    "test": "protractor ./configs/conf.js",
+    "posttest": ".\\reports\\screenshots\\Bellagio.html",
+    "preinstall": "mkdir logs .\\reports\\screenshots",
+    "postinstall": "webdriver-manager update",
+    "server": "start cmd /k \"node_modules\\.bin\\webdriver-manager start\""
+  },
+  "keywords": [],
+  "author": "Dzmitry_Karneyenka, Belarus, Minsk",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.41.0",
+    "protractor": "^5.4.0"
+  }
+}
