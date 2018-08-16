@@ -7,7 +7,6 @@
     "wd-up": "webdriver-manager update",
     "wd-st": "webdriver-manager start",
     "test": "protractor ./configs/conf.js",
-    "posttest": ".\\reports\\screenshots\\Bellagio.html",
     "preinstall": "mkdir logs .\\reports\\screenshots",
     "postinstall": "webdriver-manager update",
     "server": "start cmd /k \"node_modules\\.bin\\webdriver-manager start\""
